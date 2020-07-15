@@ -24,7 +24,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/crosspay/updateRate",
+			"url": "http://crosspay.ap-south-1.elasticbeanstalk.com/crosspay/rate/update",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -36,12 +36,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1594805126286,
+			"time": 1594822434250,
 			"name": "update",
 			"description": "",
 			"collectionId": "ad5854e6-b44c-862b-dd97-5e6950e45a94",
 			"responses": [],
-			"rawModeData": "{\n        \"ccyCode\": \"AED\",\n        \"rate\": \"3.67\",\n        \"asOnDate\": \"2020-07-15T14:51\"\n        \n}"
+			"rawModeData": "{\n        \"ccyCode\": \"JOD\",\n        \"rate\": \"0.71\",\n        \"asOnDate\": \"2020-07-15T14:51\"\n        \n}"
 		},
 		{
 			"id": "ef26d953-66c9-0f12-6f81-6bbd09b42af2",
@@ -54,7 +54,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/crosspay/rate/all",
+			"url": "http://crosspay.ap-south-1.elasticbeanstalk.com/crosspay/rate/all",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -66,7 +66,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1594811590239,
+			"time": 1594822440139,
 			"name": "get",
 			"description": "",
 			"collectionId": "ad5854e6-b44c-862b-dd97-5e6950e45a94",
@@ -84,7 +84,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/crosspay/updateRate",
+			"url": "http://crosspay.ap-south-1.elasticbeanstalk.com/crosspay/rate/convert",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -96,12 +96,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1594805126286,
+			"time": 1594822437450,
 			"name": "convert",
 			"description": "",
 			"collectionId": "ad5854e6-b44c-862b-dd97-5e6950e45a94",
 			"responses": [],
-			"rawModeData": "{\n        \"ccyCode\": \"AED\",\n        \"rate\": \"3.67\",\n        \"asOnDate\": \"2020-07-15T14:51\"\n        \n}"
+			"rawModeData": "{\n        \"fromCcy\": \"INR\",\n        \"toCcy\": \"JOD\",\n        \"amount\": \"10\"\n}"
 		}
 	]
 }
