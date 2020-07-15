@@ -1,0 +1,107 @@
+{
+	"id": "ad5854e6-b44c-862b-dd97-5e6950e45a94",
+	"name": "Crosspay",
+	"description": "",
+	"order": [
+		"7393dcf5-fb0c-b658-9166-d81f131cc471",
+		"f498d784-1d4f-4ca2-4c32-cdce4da4022d",
+		"ef26d953-66c9-0f12-6f81-6bbd09b42af2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1594804611815,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "7393dcf5-fb0c-b658-9166-d81f131cc471",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/crosspay/updateRate",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594805126286,
+			"name": "update",
+			"description": "",
+			"collectionId": "ad5854e6-b44c-862b-dd97-5e6950e45a94",
+			"responses": [],
+			"rawModeData": "{\n        \"ccyCode\": \"AED\",\n        \"rate\": \"3.67\",\n        \"asOnDate\": \"2020-07-15T14:51\"\n        \n}"
+		},
+		{
+			"id": "ef26d953-66c9-0f12-6f81-6bbd09b42af2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/crosspay/rate/all",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594811590239,
+			"name": "get",
+			"description": "",
+			"collectionId": "ad5854e6-b44c-862b-dd97-5e6950e45a94",
+			"responses": [],
+			"rawModeData": "{\n        \"ccyCode\": \"AED\",\n        \"rate\": \"3.67\",\n        \"asOnDate\": \"2020-07-15T14:51\"\n        \n}"
+		},
+		{
+			"id": "f498d784-1d4f-4ca2-4c32-cdce4da4022d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/crosspay/updateRate",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594805126286,
+			"name": "convert",
+			"description": "",
+			"collectionId": "ad5854e6-b44c-862b-dd97-5e6950e45a94",
+			"responses": [],
+			"rawModeData": "{\n        \"ccyCode\": \"AED\",\n        \"rate\": \"3.67\",\n        \"asOnDate\": \"2020-07-15T14:51\"\n        \n}"
+		}
+	]
+}
